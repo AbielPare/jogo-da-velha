@@ -1,0 +1,62 @@
+/* src/JogoDaVelha.css */
+
+body {
+  background-color: rgb(29, 155, 255);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background:  rgb(29, 155, 255);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+.table {
+  margin-bottom: 20px;
+}
+
+.table th {
+  background-color: #007bff;
+  color: rgb(146, 144, 144);
+}
+
+.table td {
+  background-color: #727272;
+}
+
+.table tbody tr:hover {
+  background-color: #727272;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.d-flex {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100px; /* Definindo uma largura fixa para os botões */
+  height: 100px; /* Aumentando a altura dos botões */
+  font-size: 36px; /* Aumentando o tamanho da fonte */
+  margin: 5px; /* Ajustando a margem para melhor espaçamento */
+}
+
+button:hover {
+  background-color: #007bff;
+  color: #727272;
+  transition: background-color 0.3s ease;
+}
